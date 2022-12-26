@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  /* background-image: url(img/bg.png); */
+  background: #2d435f;
+}
+
+ul li {
+  margin-left: 50px;
+  display: inline-block;
+  flex-direction: column;
+}
+
+.icons {
+  width: 40px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+  padding: 10px;
+}
+
+
+.twitter {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  text-decoration: none;
+
+}
+
+.twitter:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: #FFF;
+}
+
+.github {
+  box-shadow: inset 0 0 0 0 #4078c0;
+  color: 4078c0 #FFF;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  text-decoration: none;
+
+}
+
+.github:hover {
+  box-shadow: inset 100px 0 0 0 #4078c0;
+  color: white;
+}
+
+.instagram {
+  box-shadow: inset 0 0 0 0 #E1306C;
+  color: #E1306C;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  text-decoration: none;
+
+}
+
+.instagram:hover {
+  box-shadow: inset 100px 0 0 0 #E1306C;
+  color: white;
+}
+
+.youtube {
+  box-shadow: inset 0 0 0 0 #c4302b;
+  color: #c4302b;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  text-decoration: none;
+
+}
+
+.youtube:hover {
+  box-shadow: inset 100px 0 0 0 #c4302b;
+  color: white;
+}
+
+.tiktok {
+  box-shadow: inset 0 0 0 0 #00f2ea;
+  color: #00f2ea;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  text-decoration: none;
+
+}
+
+.tiktok:hover {
+  box-shadow: inset 100px 0 0 0 #00f2ea;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+   .social{
+    width: 100%;
+   }
+   .social ul li {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    padding: 10px;
+  }
+ 
+}
